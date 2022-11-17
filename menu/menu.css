@@ -1,0 +1,12 @@
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    border-image-width: 15%;
+    text-align: center;
+}
+
+.grid1 img{
+    width: 95%;
+    margin: auto;
+}

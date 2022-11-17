@@ -1,0 +1,18 @@
+#wrapper1 {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#wrapper1 img{
+    width:95%;
+    margin-left: 11px;
+    
+}
+
+#big{
+    grid-column-end: span 3;
+}
+
+#big img{
+    width: 98.35%;
+}
